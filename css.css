@@ -1,0 +1,30 @@
+#pick{
+	color:blue;
+	background-color:lightgreen;
+}
+h1{
+	color:purple;
+	background-color:lightblue;
+			
+}
+div{
+	color:red;
+	background-color:blue;
+	width:1210px;
+	height:600px;
+	margin-right:50px;
+	
+}
+.main{
+	background-color:silver;
+	color:brown;
+}
+a.link{
+	color:green;
+}
+a.visited{
+	color:brown;
+}
+a.hover{
+	color:;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>login page</title>
+		<style>
+            form{
+				width: 500px;
+				background-color: lightskyblue;
+				border: 7px solid aqua ;
+				margin: 0 auto;
+			}
+			input[type="text"],input[type="password"] ,select{
+				width: 370px;
+				height: 20px;
+				border: 1px solid greenyellow ;
+			}
+			textarea{
+				resize: none;
+				border: 1px solid blueviolet
+			}
+			input[type="submit"]{
+				width: 370px;
+				border: 1px solid hotpink;
+				color:deepskyblue;
+				background-color: darkorchid;
+			}
+			h2{
+				color: seagreen;
+				text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+            <form>
+			<table>
+					<h2>Login here</h2>
+					<hr/>
+				<tr>
+					<td><label for="user"><b>Username :</b></label></td>
+					<td><input type="text" name="user" id="user"></td>
+				</tr>
+				<tr>
+						<td><label for="pass"><b>Password :</b></label></td>
+						<td><input type="password" name="pass" id="pass"></td>
+				</tr>
+                <tr>
+                    <td> </td>
+                     <td> <input type="submit" value="Login" name="submit_form"></td>
+              </tr>
+              <tr>
+                  <td colspan="10">Don't have an account<button><a href="signup.html">signup here </a></button> </td>
+              </tr>
+			</table>
+        </form>
+    </body>
+</html>

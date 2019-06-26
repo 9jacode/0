@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Signup page</title>
+		<style>
+            form{
+				width: 500px;
+				background-color: lightskyblue;
+				border: 7px solid aqua ;
+				margin: 0 auto;
+			}
+			input[type="text"],input[type="password"] ,select{
+				width: 370px;
+				height: 20px;
+				border: 1px solid greenyellow ;
+			}
+			#T1{
+				resize: none;
+				border: 1px solid blueviolet
+			}
+            #T2{
+				resize: none;
+				border: 1px solid blueviolet;
+                width:20px;
+                height: 20px;
+			}
+            #T3{
+				resize: none;
+				border: 1px solid blueviolet;
+                width:60px;
+                height: 20px;
+			}
+			input[type="submit"]{
+				width: 370px;
+				border: 1px solid hotpink;
+				color:deepskyblue;
+				background-color: darkorchid;
+			}
+			h2{
+				color: seagreen;
+				text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+            <form>
+			<table>
+					<h2>Fill in the form to continue </h2>
+                    <hr/>
+                 <tr>
+                   <td><label for="user"><b>First Name :</b></label></td>
+                 <td><input type="text" name="user" id="user"></td>
+                 </tr>
+                 <tr>
+                    <td><label for="user"><b>Second Name :</b></label></td>
+                     <td><input type="text" name="user" id="user"></td>
+                 </tr>
+				<tr>
+					<td><label for="user"><b>Choose a Username :</b></label></td>
+					<td><input type="text" name="user" id="user"></td>
+				</tr>
+                <tr>
+                        <td><label for="DOB"><b>Age :</b></label></td>
+                        <td><textarea id="T2" name="com" rows="1" cols="1" placeholder="dd"></textarea>
+                            <textarea id="T2" name="com" rows="1" cols="1" placeholder="mm"></textarea>
+                            <textarea id="T3" name="com" rows="1" cols="1" placeholder="yy"></textarea>
+                        </td>
+                    </tr>
+				<tr>
+							<td><label><b>Gender :</b></label></td>
+							<td>Male :<input type="radio" name="gender" value="male"> 
+							<br/>Female :<input type="radio" name="gender" value="female"></td>
+				</tr>
+				<tr>
+						<td><label><b>Skills :</b></label></td>
+						<td>HTML :<input type="checkbox" name="html" value="html"> <br/> CSS :<input type="checkbox" name="css" value="css">
+						<br/>PHP :<input type="checkbox" name="php" value="php"> <br/> JAVA :<input type="checkbox" name="java" value="java"></td>
+			</tr><br/><br/>
+			<tr>
+				<td><label for="country"><b>Select your country :</b></label></td>
+				<td>
+					<select id="country" name="country">
+						<option value="">select your country</option>
+						<option  value="ng">nigeria</option>
+						<option  value="gh">ghana</option>
+						<option  value="ma">mali</option>
+						<option  value="se">senegal</option>
+						<option  value="tg">togo</option>
+						<option  value="gu">guniea</option>
+						<option  value="sa">south africa</option>
+                        <option  value="ke">kenya</option>
+                        <option  value="O">Others</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="reason"><b>Drop a quote :</b></label></td>
+				<td><textarea id="T1" name="com" rows="10" cols="50"> </textarea></td>
+            </tr>
+            <tr>
+                    <td><label for="pass"><b>password :</b></label></td>
+                    <td><input type="password" name="pass" id="pass"></td>
+            </tr>
+            <tr>
+                    <td><label for="pass"><b>confirm password :</b></label></td>
+                    <td><input type="password" name="pass" id="pass"></td>
+            </tr>
+			<tr>
+				<td> </td>
+                <td> <input type="submit" value="click to submit " name="submit_form"></td>
+            </tr><br/>
+			</table>
+		</form>
+    </body>
+</html>

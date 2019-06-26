@@ -1,0 +1,23 @@
+#d1{
+    height: 50px;
+    width: 150px;
+    border:10px green solid;
+    background-image: url(bg.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    
+}
+#d2{
+    height: 170px;
+    width: 190px;
+    background-color:blue;
+    border:15px yellow solid;
+}
+#d3{
+    height: 200px;
+    width: 290px;
+    background-color:rgb(0, 225, 255);
+    border-color: rebeccapurple;
+    border-top-style: dotted;
+
+}
